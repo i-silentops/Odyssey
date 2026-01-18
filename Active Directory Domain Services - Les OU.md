@@ -1,7 +1,7 @@
 
 ## L'OU utilisateurs où on voit le compte utilisateur
 
-![image.txt](Ressources/Students.png)
+![image.txt](Ressources/Users.png)
 
 Nous voyons également la fenêtre du groupe utilisateur dans laquelle on voit l'utilisateur membre.  
 
