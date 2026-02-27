@@ -19,7 +19,6 @@ root@webserver:~# grep " 200 " /var/log/apache2/access.log
 192.168.1.19 - - [27/Feb/2026:20:23:20 +0100] "GET / HTTP/1.1" 200 902 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"  
 192.168.1.19 - - [27/Feb/2026:20:46:20 +0100] "GET / HTTP/1.1" 200 1558 "-" "curl/8.14.1"  
 192.168.1.19 - - [27/Feb/2026:20:51:39 +0100] "GET / HTTP/1.1" 200 902 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15"  
-192.168.1.19 - - [27/Feb/2026:20:55:59 +0100] "GET / HTTP/1.1" 200 902 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15"  
 192.168.1.19 - - [27/Feb/2026:20:56:47 +0100] "GET / HTTP/1.1" 200 902 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"  
 192.168.1.19 - - [27/Feb/2026:20:56:50 +0100] "GET /next.html HTTP/1.1" 200 933 "http://lab-2026.webhop.me:22545/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"  
 192.168.1.19 - - [27/Feb/2026:20:56:58 +0100] "GET /index.html HTTP/1.1" 200 902 "http://lab-2026.webhop.me:22545/next.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"  
@@ -33,7 +32,6 @@ root@webserver:~# grep " 404 " /var/log/apache2/access.log
 192.168.1.19 - - [27/Feb/2026:20:23:20 +0100] "GET /favicon.ico HTTP/1.1" 404 530 "http://192.168.1.19/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"    
 192.168.1.19 - - [27/Feb/2026:20:55:59 +0100] "GET /favicon.ico HTTP/1.1" 404 539 "http://lab-2026.webhop.me:22545/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15"  
 192.168.1.19 - - [27/Feb/2026:20:56:48 +0100] "GET /favicon.ico HTTP/1.1" 404 540 "http://lab-2026.webhop.me:22545/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0"  
-192.168.1.19 - - [27/Feb/2026:21:10:27 +0100] "GET /favicon.ico HTTP/1.1" 404 539 "http://lab-2026.webhop.me:22545/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"  
 ::1 - - [27/Feb/2026:21:22:29 +0100] "GET /page_inexistante.html HTTP/1.1" 404 472 "-" "curl/8.14.1"  
 ::1 - - [27/Feb/2026:21:22:54 +0100] "GET /page_inexistante HTTP/1.1" 404 472 "-" "curl/8.14.1"  
   
