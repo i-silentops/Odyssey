@@ -12,7 +12,7 @@
     <Correlation />
     <Execution ProcessID="3044" ThreadID="2664" />
     <Channel>DNS Server</Channel>
-    <Computer>ECO-BDX-EX02.eoctech.local</Computer>
+    <Computer>ECO-BDX-EX02.ecotech.local</Computer>
     <Security UserID="S-1-5-18" />
   </System>
   <EventData Name="DNS_EVENT_ZONE_LOAD_COMPLETE" />
