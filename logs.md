@@ -1,6 +1,7 @@
 Ici, je lis mes logs de façon suivante :
   
-[ Timestamp ]  [Niveau]  [Source]  Message
+`[ IP ]  [          Timestamp       ]                   [Niveau]                    Message`  
+`::1 - - [27/Feb/2026:01:37:36 +0100] "GET / HTTP/1.1"     200      10958   "-"   "curl/8.14.1"`  
 
 Timestamp : [27/Feb/2026:01:37:36 +0100]  
 Niveau : 200  
