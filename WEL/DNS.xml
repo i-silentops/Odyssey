@@ -1,9 +1,9 @@
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
     <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
-    <EventID>4</EventID>
+    <EventID>2,4,409,501,502,6001,6002</EventID>
     <Version>0</Version>
-    <Level>4</Level>
+    <Level>1,2,3,4,0</Level>
     <Task>0</Task>
     <Opcode>0</Opcode>
     <Keywords>0x8000000000000010</Keywords>
